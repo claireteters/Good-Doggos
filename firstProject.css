@@ -1,0 +1,68 @@
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Trebuchet MS";
+}
+
+body {
+    text-align: center;
+    background-color: #c2d4dd;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+p {
+    font-family: Helvetica;
+    padding: 40px;
+}
+
+h2, h3 {
+    font-family: "Trebuchet MS";
+    padding: 30px;
+}
+
+body, html {
+height: 100%;
+}
+
+.openingDoggo {
+    background-image: url("images/veryhappypup.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.openingParagraph {
+    position: relative;
+    display: block;
+    background-color: transparent;
+    z-index: 1;
+  }
+
+.paragraphContainer {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+
+  .allTheDoggos {
+    width: 100%;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    background-color: #667292;
+  }
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
